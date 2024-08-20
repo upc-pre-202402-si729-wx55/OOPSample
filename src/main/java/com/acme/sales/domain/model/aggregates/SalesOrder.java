@@ -63,6 +63,10 @@ public class SalesOrder {
         status = SalesOrderStatus.CANCELLED;
     }
 
+    public String getShippingAddressAsString() {
+        return shippingAddress.getAddressAsString();
+    }
+
     private UUID getInternalId() { return internalId; }
 
     private void verifyIfReadyForDispatch() {
