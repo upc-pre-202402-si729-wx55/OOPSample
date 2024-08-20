@@ -1,12 +1,12 @@
 package com.acme.shared.domain.model.valueobjects;
 
 public class Address {
-    private String street;
-    private String number;
-    private String city;
-    private String state;
-    private String zipCode;
-    private String country;
+    private final String street;
+    private final String number;
+    private final String city;
+    private final String state;
+    private final String zipCode;
+    private final String country;
 
     public Address() {
         this.street = "";
